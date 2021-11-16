@@ -51,13 +51,13 @@ docker run -p 8888:8888 notebook
 python -m venv venv
 ```
 
-### Activate virtual environment on local environment (optional) (mac/linux)
+### Activate virtual environment on local environment (mac/linux)
 
 ```bash
 source venv/bin/activate
 ```
 
-### Install packages on local environment (optional)
+### Install packages on local environment
 
 ```bash
 pip install -r jupyter-requirements.txt
