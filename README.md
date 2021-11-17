@@ -43,6 +43,9 @@ docker run -p 8888:8888 notebook
 
 * Take note that the container uses port 8888 so it wouldn't work other applications are using the same port
 
+* If the notebook is read-only, make a copy of the notebook before writing any code
+
+
 ## No docker
 
 ### Creation of virtual environment
