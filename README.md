@@ -10,13 +10,15 @@ Tested on:
 
 * Before building the docker image, please make sure that your credentials GBQ credentials are in the following path, where `xxxxxxx` is your json filename
 
-* Make an `auth` folder in the same folder as this.
+* Make an `auth` folder in the same folder as this
+
+* Please refer to the Jupyter Notebook for reference to see how credentials are being read
 
 ```bash
 auth/xxxxxxx.json
 ``` 
 
-* Please refer to the Jupyter Notebook for reference
+* Command to build the notebook:
 
 ```bash
 docker build -t notebook .
