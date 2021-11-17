@@ -43,7 +43,7 @@ docker run -p 8888:8888  -v $(pwd):/app notebook
 ```
 * Please copy and paste the 2nd last line that begins with http://127.0.0.1:8888 the following query strings are the authentication token
 
-* Take note that the container uses port 8888 so it wouldn't work other applications are using the same port
+* Take note that the container uses port 8888 so it wouldn't work if other applications are using the same port
 
 * If the notebook is read-only, make a copy of the notebook before writing any code
 
