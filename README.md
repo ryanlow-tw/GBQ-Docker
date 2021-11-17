@@ -24,7 +24,7 @@ docker build -t notebook .
 
 ### Run Docker Container
 ```bash
-docker run -p 8888:8888 notebook 
+docker run -p 8888:8888  -v $(pwd):/app notebook
 ```
 * Once you've started the jupyter notebook you would see something like this:
 
