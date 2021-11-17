@@ -8,7 +8,7 @@ Tested on:
 
 ### Build Docker Image
 
-* Before building the docker image, please make sure that your credentials GBQ credentials are in the following path, where xxxxxxx is your json filename
+* Before building the docker image, please make sure that your credentials GBQ credentials are in the following path, where `xxxxxxx` is your json filename
 
 * Make an `auth` folder in the same folder as this.
 
