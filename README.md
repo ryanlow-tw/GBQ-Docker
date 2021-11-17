@@ -45,6 +45,11 @@ docker run -p 8888:8888  -v $(pwd):/app notebook
 
 * If the notebook is read-only, make a copy of the notebook before writing any code
 
+### Remove unused containers
+
+```bash
+docker rm $(docker ps --filter status=exited -q)
+```
 
 ## No docker
 
